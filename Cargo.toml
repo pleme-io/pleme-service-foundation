@@ -7,6 +7,8 @@ description = "Service foundation library for Pleme platform - bootstrap, health
 repository = "https://github.com/pleme-io/pleme-service-foundation"
 homepage = "https://github.com/pleme-io/pleme-service-foundation"
 readme = "README.md"
+keywords = ["service", "bootstrap", "health-check", "graceful-shutdown", "axum"]
+categories = ["web-programming"]
 
 [dependencies]
 tokio = { version = "1.35", features = ["full"] }
