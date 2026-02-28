@@ -2,7 +2,7 @@
   description = "pleme-service-foundation - Service foundation library for Pleme platform — bootstrap, health checks, graceful shutdown";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
     substrate = {
       url = "github:pleme-io/substrate";
       inputs.nixpkgs.follows = "nixpkgs";
